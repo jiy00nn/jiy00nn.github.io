@@ -1,4 +1,5 @@
 import Header from "@/components/Header";
+import Footer from "@/components/organism/Footer";
 
 export default function Home() {
   return (
@@ -8,6 +9,7 @@ export default function Home() {
         <section className="h-screen border border-blue-600 w-full"></section>
         <section className="h-screen border border-orange-500 w-full"></section>
       </main>
+      <Footer />
     </div>
   );
 }
