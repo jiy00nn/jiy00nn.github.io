@@ -1,15 +1,24 @@
-import Header from "@/components/Header";
-import Footer from "@/components/organism/Footer";
+import Header from '@/components/organism/Header'
+import HomeSection from '@/components/organism/HomeSection'
+import Footer from '@/components/organism/Footer'
 
 export default function Home() {
+  // if (a >= 19)
   return (
     <div>
       <Header />
-      <main className="h-fit items-center mt-16 px-20 z-0">
-        <section className="h-screen border border-blue-600 w-full"></section>
-        <section className="h-screen border border-orange-500 w-full"></section>
+      <main className="z-0 pt-16">
+        <HomeSection />
+        <section className="section-class">
+          <div>Hi, I&aposm Jiyoon Web Developer</div>
+          <div>Full stack Developer / Javascript ~~</div>
+          <div>description</div>
+        </section>
+        <section className="section-class">
+          <div>Contact</div>
+        </section>
       </main>
       <Footer />
     </div>
-  );
+  )
 }
